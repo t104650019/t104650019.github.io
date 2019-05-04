@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.moreitem').click(function(){
+        if($('.pullbar').css('visibility')=="hidden")
+            {$('.pullbar').css('visibility','visible');}
+       else{
+            $('.pullbar').css('visibility','hidden');
+         }
+        });
+})
